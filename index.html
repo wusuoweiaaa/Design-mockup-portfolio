@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>WuWei's Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+    <link rel="stylesheet" href="css/zocial.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="row">
+          <div class="col-md-6 title-logo">
+            <!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+            <img id ="logo" src="images/deer.svg" alt="logo"/>
+          </div>
+          <div class="col-md-6 text-right text-uppercase" id="header1">
+            <h1 class="title-super text-thin">wei wu</h1>
+            <h4>Front-end Beginner</h4>
+          </div>
+      </div>
+      </header>
+
+      <figure>
+        <div class="row">
+          <div class="cover_image col-md-12">
+            <picture>
+              <source media="(min-width: 990px)" srcset="images/cover.jpg 1x"/>
+              <source media="(min-width: 630px)" srcset="images/cover-800_large_1x.jpg"/>
+              <img class="cover_image img-responsive" src="images/cover-500_small.jpg" alt="Blue Sky">
+              <figcaption class="text-center">After rain comes sunshine.</figcaption>
+            </picture>
+            <p class="text-center">photo by wei, ShanDong, China, 2016</p>
+          </div>
+        </div>
+      </figure>
+
+      <div class="row">
+        <div class="col-md-12 text-muted">
+          <h2 id="header2">Feature Work</h2>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4 pro1">
+          <picture>
+            <img class="cover_image img-responsive shadow" src="images/model-500_small.jpg" alt="project01" data-toggle="modal" data-target="#project1">
+          </picture>
+          <h3 class="header3"><a href="https://github.com/wusuoweiaaa/mockup-to-article" target="view_window">My First Project</a></h3>
+        </div>
+
+        <div class="col-md-4 pro2">
+          <picture>
+            <img class="cover_image img-responsive shadow" src="images/animalcard-500_small.jpg" alt="project02" data-toggle="modal" data-target="#project2">
+          </picture>
+
+          <h3 class="header3"><a href="https://github.com/wusuoweiaaa/Animal-trading-cards" target="view_window">My second Project</a></h3>
+        </div>
+
+        <div class="col-md-4 pro3">
+          <picture>
+            <source media="(min-width: 990px)" srcset="images/profile-500_small.jpg"/>
+            <source media="(min-width: 630px)" srcset="images/profile-800_large_1x.jpg"/>
+            <img class="cover_image img-responsive shadow" src="images/profile_small.jpg" alt="project03" data-toggle="modal" data-target="#project3">
+          </picture>
+          <h3 class="header3"><a href="#">My Third Project</a></h3>
+        </div>
+      </div>
+
+
+
+
+      <hr>
+      <footer>
+
+        <div id="social">
+          <h3 class="text-center">About me</h3>
+          <a href=" http://weibo.com/u/2231544797" class="zocial weibo icon" target="view_window">     Follow me on Weibo</a>
+          <a href="https://plus.google.com/u/0/114567781111681803713" class="zocial icon googleplus" target="view_window">Google+</a>
+          <a href="https://github.com/wusuoweiaaa" class="zocial icon github" target="view_window">"github"</a>
+        </div>
+
+      </footer>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Mockup-to-article</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/model-500_small.jpg">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Animal Trading Cards</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/animalcard-500_small.jpg">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Design-mockup-portfolio</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/profile-500_small.jpg">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>

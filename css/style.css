@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #676858;
+  font-weight: 400;
+}
+
+.text-muted {
+  color: #BCBBBB;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-logo {
+  margin-top: 20px;
+}
+
+#logo {
+  min-width: 18%;
+  max-width: 26%;
+}
+
+.shadow {
+  box-shadow: 8px 8px 20px #82a9b1;
+}
+
+#social a {
+  margin-top: 5%;
+  margin-left: 14%;
+  margin-right: 14%;
+}
