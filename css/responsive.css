@@ -16,7 +16,7 @@
   .title-super {
     font-size: 40px;
   }
-
+/*设置左右外边距为 auto 来使其水平居中。元素会占据你所指定的宽度，然后剩余的宽度会一分为二成为左右外边距。*/
   .cover_image {
     bottom: .5em;
     left: .5em;
